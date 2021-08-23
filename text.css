@@ -1,0 +1,114 @@
+.container-two h1{
+  color: #fff;
+  font-size: 65px;
+  text-align: left;
+  font-weight: 900;
+}
+.container-two p{
+  color: #fff;
+  font-size: 25px;
+  text-align: left;
+  line-height: px;
+  margin-bottom: 2%;
+}
+
+
+
+
+.undertext{
+  display: flex;
+  justify-content: space-between;
+  position:absolute;
+  bottom: 8px;
+  left: 10px;
+  width: 100%;
+  padding-right: 60px;
+}
+
+.undertext a{
+  text-decoration: none;
+  color: #fff;
+}
+.undertext p{
+  color: #95a5a6;
+}
+.undertext h1{
+  color: #fff;
+  display: inline-block;
+  margin-left: 10px;
+  line-height: 10px;
+}
+.undertext .fa-squarespace{
+  color: #fff;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+/*******layer area******/
+
+
+
+.test{
+  position: relative;
+  display: block;
+}
+
+.container img{
+  display: block;
+  height: auto;
+  width: 100%;
+  box-sizing: content-box;
+  overflow: hidden;
+}
+.layer{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(9, 243, 134, 0.6);
+  display: flex;
+  justify-content: right;
+  opacity: 0;
+  padding: 10px;overflow: hidden;
+  
+
+}
+.box2{
+  background-color: azure;
+  margin: 10px;
+  padding: 8px 15px;
+  border-radius: 2px;color: #95a5a6;overflow: hidden;
+  
+}
+.box2:hover{
+  color: #000;
+  background-color: #fff;overflow: hidden;
+}
+.round{
+  display: flex;
+  bottom: 0;
+  position: absolute;
+  left: 0;overflow: hidden;
+}
+.img-div{
+  width: 30px;
+  clip-path: circle();
+  object-fit: cover;
+  margin: 0px 10px;overflow: hidden;
+}
+.round-text{
+  margin-right: 225px;
+  color: #dfe6e9;overflow: hidden;
+}
+
+.test:hover .layer{
+  opacity: 1;overflow: hidden;
+}
